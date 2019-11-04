@@ -1,0 +1,24 @@
+entity Vehicle{
+	brand String required,
+	model String required,
+	plate String required,
+	licenseRequired String required
+}
+
+entity Driver {
+	name String required,
+	surName String required,
+	license String required
+}
+ entity Trip {
+ 	date LocalDate
+ }
+ 
+ relationship OneToOne {
+ 	Trip{Driver} to Driver
+	Trip{Vehicle} to Vehicle
+ }
+ 
+ paginate Vehicle, Driver, Trip with pagination
+ 
+ service all with serviceImpl

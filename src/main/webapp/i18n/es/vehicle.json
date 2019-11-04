@@ -1,0 +1,25 @@
+{
+  "uterApp": {
+    "vehicle": {
+      "home": {
+        "title": "Vehicles",
+        "createLabel": "Crear nuevo Vehicle",
+        "createOrEditLabel": "Crear o editar Vehicle",
+        "notFound": "No Vehicles found"
+      },
+      "created": "Un nuevo Vehicle ha sido creado con el identificador {{ param }}",
+      "updated": "Un Vehicle ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Vehicle ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Vehicle {{ id }}?"
+      },
+      "detail": {
+        "title": "Vehicle"
+      },
+      "brand": "Brand",
+      "model": "Model",
+      "plate": "Plate",
+      "licenseRequired": "License Required"
+    }
+  }
+}

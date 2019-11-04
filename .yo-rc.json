@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.hiberus.uter",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "monolith",
+    "baseName": "uter",
+    "packageName": "com.hiberus.uter",
+    "packageFolder": "com/hiberus/uter",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MmExMTM2ZGQ5ZjIwODNiZjNjYjlkMzgzMzljMmJhMGVmOTM3MjE0NjM5YzljN2M0YjhmYmIzOTE2YjE4MDAxMTA3MWViNzI2OTI4OGI2OWUyNjkxMDVmMjRkYzNiOGZkNmY0MTY3YjcxOWIzYTc3ZTM2ZTMwZWEwNDVlZjA5ZTg=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "materia",
+    "clientThemeVariant": "light",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "blueprints": []
+  }
+}
