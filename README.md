@@ -17,51 +17,14 @@ Habrá que modela una aplicación que responda a la siguiente funcionalidad:
     - En la fase de selección de conductor, sólo se podrá seleccionar un conductor que **no tenga un viaje programado ese día Y que tenga la misma licencia que el vehículo seleccionado**.
     
 
-## API REST DE UTER 
+## UTER PLATFORM 
 
-Esta implementación de **UTER API REST** tiene como fin la exposición de los recursos elementales que serán consumidos por los clientes de la plataforma UTER.
+UTER PLATFORM fue implementado con una herramienta open source llamada  [JHipster](https://www.jhipster.tech/) que ayuda en la generación de código robusto y respetando las buenas practicas. Genera código java usando spring boot para el lado del backend y Angular o React para el lado del cliente.
 
 
-### Pre-requisitos 📋
-```
-1.- JDk 1.8 o superior
-2.- Maven 3
-3.- Spring Boot 2.1.9
-4.- Springfox-swagger2 2.9.2
-5.- Springfox-swagger-ui 2.9.2
-6.- H2 1.4.199
-7.- IDE - Eclipse or Spring Tool Suite 4 (STS)
-```
-## Despliegue del api rest 📦
 
-Puedes ver la documentación de la api y puedes probarla en línea accediendo al siguiente link ->
-[API REST UTER](http://ec2-34-207-66-81.compute-1.amazonaws.com:8080/swagger-ui.html#)
 
-![Swagger de la aplicación](./swagger.png)
 
-## FRONTEND DE UTER  
-
-### Pre-requisitos 📋
-
-```
-1.- Node v12.13.0
-2.- NPM 6.12.0
-3.- @material-ui/core  ^4.5.2
-4.- @material-ui/icon ^4.5.1
-5.- @material-ui/styles ^4.5.2
-6.- axios ^0.19.0
-7.- react ^16.11.0
-8.- react-dom ^16.11.0
-9.- react-router-dom ^5.1.2
-10.- react-scripts 3.2.0
-12.- Visual Studio Code
-```
-
-## Despliegue del frontend de uter 📦
-
-Puedes acceder al fontend de uter en el siguente link -> [Frontend de UTER](http://ec2-34-207-66-81.compute-1.amazonaws.com)
-
-![Frontend de uter](./front-end.png)
 
 ## Autores ✒️
 
