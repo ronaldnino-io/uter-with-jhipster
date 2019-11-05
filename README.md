@@ -21,6 +21,9 @@ Habrá que modela una aplicación que responda a la siguiente funcionalidad:
 
 UTER PLATFORM fue implementado con una herramienta open source llamada  [JHipster](https://www.jhipster.tech/) que ayuda en la generación de código robusto y respetando las buenas practicas. Genera código java usando spring boot para el lado del backend y Angular o React para el lado del cliente.
 
+Puede acceder a la plataforma en el siguiente link -> [UTER](http://uter-env.kfnx5ejdpu.us-east-1.elasticbeanstalk.com/?)
+![UTER](./uter.png) 
+
 
 
 
